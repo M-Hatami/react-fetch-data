@@ -1,0 +1,74 @@
+@font-face {
+  font-family: Yekan;
+  src: url(./fnt/Yekan.woff2) format("woff2"),
+    url(./fnt/Yekan.woff) format("woff"),
+    url(./fnt/Yekan.ttf) format("truetype"),
+    url(./fnt/Yekan.eot?#iefix) format("embedded-opentype"),
+    url(./fnt/Yekan.svg#WeblogmaYekan) format("svg");
+  font-weight: normal;
+  unicode-range: U+0600 –06FF;
+}
+
+@font-face {
+  font-family: "Vazir Code Hack";
+  src: url("./fnt/monospaced/Vazir-Code-Hack.woff2") format("woff2"),
+    url("./fnt/monospaced/Vazir-Code-Hack.woff") format("woff"),
+    url("./fnt/monospaced/Vazir-Code-Hack.ttf") format("truetype"),
+    url("./fnt/monospaced/Vazir-Code-Hack.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: normal;
+  unicode-range: U+0600 –06FF;
+}
+
+/** Style variables **/
+:root {
+  --green: #007d1b;
+  --black-head: #111;
+  --black-txt: #202124;
+  --grey-detail: #888;
+  --grey-head-border: #888;
+  --grey-border: #d6d6d6;
+  --blue-link: #06c;
+}
+
+/** Default styles that will carry to the child style sheet **/
+* {
+  font-family: Yekan, Tahoma, "Segoe UI", sans-serif, "Noto Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji";
+  color: var(--black-txt);
+  letter-spacing: -0.02em;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+
+#app {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 8px;
+}
+
+h1 {
+  margin: 8px 0;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  border-radius: 5px 2px;
+  margin: 8px 0;
+}
