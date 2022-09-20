@@ -6,7 +6,7 @@ mock out simplified versions of the data that our code
 will eventually fetch from backend servers 
 */
 
-export default {
+const myData = {
   "/categories": ["پیراهن", "شلوار", "کفش", "لوازم"],
   "/items?category=پیراهن": ["بالاپوش", "راحت", "رسمی"],
   "/items?category=شلوار": [
@@ -18,3 +18,5 @@ export default {
   "/items?category=کفش": ["ورزشی", "کفش کار", "طبی-راحت", "پیاده‌روی"],
   "/items?category=لوازم": ["کلاه", "کیف‌پول", "کمربند"],
 };
+
+export default myData;
